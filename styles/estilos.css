@@ -2,8 +2,13 @@
     margin: 0;
     padding: 0;
 }
+nav{
+    position: fixed;
+    margin: 0;
+}
 
 footer {
+    margin-top: 3rem;
     text-align: center;
     padding: 25px;
     color: #E3F3EB;
@@ -33,6 +38,7 @@ table{
 }
 
 .pricipal {
+    margin: 0;
     height: 10vh;
     width: 100%;
     background-color: #046B53;
@@ -82,6 +88,10 @@ table{
 .nav-link:hover{
     color: rgb(39, 39, 240);
     text-decoration: underline;
+}
+.carousel-item{
+    height: 60vh;
+    
 }
 #tabela {
     margin: 0rem 1rem 3rem 1rem;
