@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+footer {
+    text-align: center;
+    padding: 25px;
+    color: #E3F3EB;
+    background-color: #046B53;
+}
+
+td {
+    padding: 20px;
+    text-align: center;
+}
+table{
+    border-spacing: 15px;
+}
+
+.tabela-celulas {
+    background-color: #000;
+    margin: 2vh;
+}
+
+.card-body {
+    background-color: #046B53;
+    color: #fff;
+}
+
+.container-fluid {
+    padding: 1.2rem;
+}
+
+.pricipal {
+    height: 10vh;
+    width: 100%;
+    background-color: #046B53;
+}
+
+.btn-outline-success {
+    background-color: #046B53;
+    color: #fff;
+    border-radius: 20px;
+    padding: 1vh 4vh 1vh 4vh;
+    font-size: 18px;
+    border: none;
+}
+
+.btn-outline-success:hover {
+    background-color: #08C296;
+    color: #fff;
+    border-radius: 20px;
+    padding: 1vh 4vh 1vh 4vh;
+    font-size: 18px;
+    border: none;
+}
+
+.superior {
+    background-color: #E3F3EB;
+    width: 50vh;
+    height: 27vh;
+    border-radius: 10px;
+    margin: 10vh;
+    padding: 10px;
+    padding: 20px;
+    text-align: center;
+}
+
+.inferior {
+    background-color: #E3F3EB;
+    width: 210vh;
+    height: 27vh;
+    border-radius: 10px;
+    margin: 100vh;
+    padding: 20px;
+    text-align: center;
+}
+.nav-link{
+    color: #000;
+}
+.nav-link:hover{
+    color: rgb(39, 39, 240);
+    text-decoration: underline;
+}
+#tabela {
+    margin: 0rem 1rem 3rem 1rem;
+    border-spacing: 20%;
+    padding: 4rem;
+    align-items: center;
+    justify-content: center;
+}
+
+#logotipo {
+    height: 20%;
+    width: 80%;
+}
+@media (max-width:600px){
+    #logotipo {
+        height: 2%;
+        width: 60%;
+        display: grid;
+    }
+}
