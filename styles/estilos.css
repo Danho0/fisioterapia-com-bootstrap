@@ -7,11 +7,11 @@ nav{
 }
 
 footer {
-   
+    margin-top: 3rem;
     text-align: center;
     padding: 25px;
-    color: #E3F3EB;
-    background-color: #046B53;
+    color: #000;
+    background-color: #fff;
 }
 
 td {
