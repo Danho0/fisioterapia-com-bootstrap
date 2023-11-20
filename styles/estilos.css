@@ -2,16 +2,22 @@
     margin: 0;
     padding: 0;
 }
+body{
+    background-color: #046B53;
+}
 /*barra nav*/
 nav{
     position: fixed;
 }
 /*cabeçaljo*/
-footer {
+
+@media (max-width:730px){
+   footer {
     background-color: #046B53;
     text-align: center;
-    padding: 50px;
+    padding: 0px;
     color: #fff;
+}
 }
 /*tabela*/
 td {
@@ -90,8 +96,20 @@ table{
 .carousel-item{
     height: 82vh;
     width: 100%;
-    align-items: center;
-    justify-content: space-between;
+}
+@media (max-width:425px){
+    .carousel-item{
+        height: 82vh;
+        width: 100%;
+        padding-top: 1%;
+    }
+}
+@media (max-width:730px){
+    .carousel-item{
+        height: 82vh;
+        width: 100%;
+        padding-top: 5%;
+    }
 }
 #tabela {
     margin: 0rem 1rem 3rem 1rem;
