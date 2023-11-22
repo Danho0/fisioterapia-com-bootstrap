@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="../functions/funcoes.js"></script>
+    <link rel="stylesheet" href="../styles/estilo-pag-dependentes.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fisioterapia</title>
+</head>
+<body id="body-login-dados">
+
+    <div class="centered-div">
+        <a href="#" onclick="sair()"><figure><img id="icone-voltar" src="../images/icone-voltar.png" alt="voltar" srcset=""></figure></a>
+        <br><br><br><br><br>
+
+        <form>
+            <input type="text" id="nome-completo" class="input-login-dados" name="nome-completo" placeholder="Nome completo: *" required>
+            <br><br>
+            <input type="text" id="email-cadastro" class="input-login-dados" name="email-cadastro" placeholder="Email: *" required>
+            <br><br>
+            <input type="date" id="data-nascimento" class="input-login-dados-meio" name="data-nascimento" required>
+            <input type="tell" id="telefone" class="input-login-dados-meio" name="telefone" placeholder="Telefone: *" required>
+            <br><br>
+            <input type="number" id="altura" class="input-login-dados-meio" name="altura" placeholder="Altura(cm):">
+            <input type="number" id="peso" class="input-login-dados-meio" name="peso" placeholder="Peso:">
+            <br><br>
+            <input type="password" id="senha" class="input-login-dados-meio" name="senha" placeholder="Senha: *" required>
+            <input type="password" id="senha-confirma" class="input-login-dados-meio" name="senha-confirma" placeholder="Confirme a senha: *" required>
+            <br><br><br><br><p>Campos marcados com "*" são de preenchimento obrigatório</p><br><br><br>
+            <a href="login-dados.html"><input type="button" id="botao-cadastrar-dados" name="botao-cadastrar-dados" value="Cadastre-se"></a>
+        </form>
+        
+    </div>
+
+</body>
+</html>

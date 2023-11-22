@@ -1,15 +1,16 @@
+/*inicioestilização do bootstrap*/
 * {
     margin: 0;
     padding: 0;
 }
-/*cabeçaljo*/
+
 footer {
     background-color: #046B53;
     text-align: center;
     padding: 50px;
     color: #fff;
 }
-/*tabela*/
+
 td {
     padding: 20px;
     text-align: center;
@@ -126,3 +127,4 @@ table{
         margin: 0;
     }
 }
+/*fim estilização do bootstrap*/
